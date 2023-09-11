@@ -1,4 +1,4 @@
-# 2D Platformer Game ReadMe
+# 2D Platformer
 
 ## Introduction
 Welcome to the 2D Platformer Game you've created! This README file will provide players with essential information about the game, including gameplay mechanics, objectives, controls, and other important details.
