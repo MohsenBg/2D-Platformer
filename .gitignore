@@ -2,6 +2,8 @@
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
+
+
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
@@ -25,7 +27,8 @@
 
 # Visual Studio cache directory
 .vs/
-
+.vscode/
+.idea/
 # Gradle cache directory
 .gradle/
 
@@ -70,3 +73,12 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+
+
+# Exclude TextMesh Pro's TMP cache (if it exists)
+/[Tt]ext[Mm]esh [Pp]ro/[Rr]esources/
+# TextMesh Pro
+/TMP/
+/ProjectSettings/TextMesh Pro/
+/Assets/TextMesh Pro
