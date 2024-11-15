@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: Suriken
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 495970556, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: -1724698804, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: 1112581770, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: 1555161996, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: 1414733267, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: 1907559417, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: -1833577784, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  - {fileID: -1833577784, guid: 800da5beee923feb1aaa39065d1825fe, type: 3}
+  m_MinSpeed: 20
+  m_MaxSpeed: 30
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
+  m_TileAnimationFlags: 0

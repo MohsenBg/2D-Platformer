@@ -1,0 +1,61 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_App/UI/Menu/Score/ScoreMenu.uss?fileID=7433441132597879392&amp;guid=b622ed58765209680ae40124a3e2d94c&amp;type=3#ScoreMenu" />
+    <ui:VisualElement name="Container" class="Container" style="background-image: url(&quot;project://database/Assets/_App/Tiled/Background/MenuBackground.png?fileID=2800000&amp;guid=a47ac818fa2b689318bd46072eb0b1dd&amp;type=3#MenuBackground&quot;);">
+        <ui:VisualElement name="Table" class="Table" style="width: 80%; height: 80%; min-height: auto;">
+            <ui:ScrollView name="ScrollView">
+                <ui:VisualElement name="RowHeader" class="Row RowHeader">
+                    <ui:VisualElement name="RowNumber" class="Column ColumnHeader" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="Row" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Row" class="LabelStyle" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Level" class="Column ColumnHeader" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="Level" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Level" class="LabelStyle" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TimeTaken" class="Column ColumnHeader" style="width: 30%;">
+                        <ui:Label tabindex="-1" text="Time" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Time" class="LabelStyle" style="font-size: 35px; -unity-font: url(&quot;project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&amp;guid=1ea0aaa3606ad50489436059b0723d21&amp;type=3#VT323-Regular&quot;); -unity-font-definition: initial;" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="CoinCollected" class="Column ColumnHeader" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="Coin" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Coin" class="LabelStyle" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Score" class="Column ColumnHeader" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="Score" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Score" class="LabelStyle" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="RowBody" class="RowBodyOdd" style="display: none;">
+                    <ui:VisualElement name="RowNumber" class="ColumnBody" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Row" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Level" class="ColumnBody" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Row" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TimeTaken" class="ColumnBody" style="width: 30%;">
+                        <ui:Label tabindex="-1" text="01:52:01" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Time" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="CoinCollected" class="ColumnBody" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Coin" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Score" class="ColumnBody" style="width: 20%;">
+                        <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Score" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="RowBody" class="RowBodyEven RowEnd" style="display: none;">
+                    <ui:VisualElement name="RowNumber" class="ColumnBody">
+                        <ui:Label tabindex="-1" text="1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Row" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="TimeTaken" class="ColumnBody">
+                        <ui:Label tabindex="-1" text="25s" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Time" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="CoinCollected" class="ColumnBody">
+                        <ui:Label tabindex="-1" text="10" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Coin" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="Score" class="ColumnBody">
+                        <ui:Label tabindex="-1" text="100" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Score" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Back" style="position: absolute; left: 10px; top: 10px; font-size: 40px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&amp;guid=1ea0aaa3606ad50489436059b0723d21&amp;type=3#VT323-Regular&quot;); background-image: url(&quot;project://database/Assets/Buttons/PNG/1button_green_middle.png?fileID=2800000&amp;guid=233e23c919e7ad548a3ffa20d2c1d7be&amp;type=3#1button_green_middle&quot;); background-color: rgba(188, 188, 188, 0); border-left-color: rgba(149, 149, 149, 0); border-right-color: rgba(149, 149, 149, 0); border-top-color: rgba(149, 149, 149, 0); border-bottom-color: rgba(149, 149, 149, 0); width: 150px; height: 70px;" />
+        <ui:DropdownField name="Levels" style="right: 10px; top: 10px; position: absolute; width: 237px; font-size: 30px; -unity-font-definition: initial; -unity-font: url(&quot;project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&amp;guid=1ea0aaa3606ad50489436059b0723d21&amp;type=3#VT323-Regular&quot;); color: rgb(255, 255, 255); align-items: center; -unity-text-align: middle-right; height: 47px; flex-direction: row-reverse;">
+            <ui:Label tabindex="-1" text="Level" parse-escape-sequences="false" display-tooltip-when-elided="true" />
+        </ui:DropdownField>
+    </ui:VisualElement>
+</ui:UXML>

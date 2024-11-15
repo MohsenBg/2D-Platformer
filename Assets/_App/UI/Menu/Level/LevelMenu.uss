@@ -1,0 +1,39 @@
+.LevelButton {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=1ea0aaa3606ad50489436059b0723d21&type=3#VT323-Regular");
+    font-size: 65px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    text-overflow: clip;
+    background-image: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Textures/Small%20Crate_diffuse.jpg?fileID=2800000&guid=602cb87b6a29443b8636370ea0751574&type=3#Small Crate_diffuse");
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(255, 255, 255);
+}
+
+.DisabledButton {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=1ea0aaa3606ad50489436059b0723d21&type=3#VT323-Regular");
+    font-size: 65px;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    white-space: normal;
+    text-overflow: clip;
+    background-image: url("project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Textures/Small%20Crate_diffuse.jpg?fileID=2800000&guid=602cb87b6a29443b8636370ea0751574&type=3#Small Crate_diffuse");
+    -unity-background-scale-mode: stretch-to-fill;
+    color: rgb(178, 169, 169);
+    -unity-background-image-tint-color: rgb(130, 130, 130);
+    background-color: rgb(255, 255, 255);
+}

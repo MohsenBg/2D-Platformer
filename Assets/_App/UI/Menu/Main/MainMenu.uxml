@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/_App/UI/Menu/Menu.uss?fileID=7433441132597879392&amp;guid=d8a504982255041e293a82d8f8f78612&amp;type=3#Menu" />
+    <ui:VisualElement name="Container" style="flex-grow: 1; align-items: center; justify-content: center; align-self: center; width: 100%; height: 100%; background-color: rgb(110, 152, 200); background-image: url(&quot;project://database/Assets/_App/Tiled/Background/MenuBackground.png?fileID=2800000&amp;guid=a47ac818fa2b689318bd46072eb0b1dd&amp;type=3#MenuBackground&quot;);">
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; align-items: center; justify-content: space-around; max-height: 700px;">
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Play" text="Play" enable-rich-text="true" class="PlayButton" style="width: 500px; height: 200px;" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Option" text="Options" class="OpetionButton" />
+            <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="Exit" text="Exit" class="ExitButton" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

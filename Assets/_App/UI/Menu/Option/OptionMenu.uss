@@ -1,0 +1,17 @@
+.Slider {
+    flex-grow: 1;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.SliderBar {
+    max-width: 400px;
+    width: 90%;
+    min-height: 30px;
+}
+
+.PercentLabel {
+    width: 50px;
+    -unity-text-align: upper-right;
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: FallingPlatfrom
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 675966808, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: -2071647038, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: -801313101, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: -179159016, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: -1136981797, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: -592271341, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: 1056919204, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  - {fileID: -1286609434, guid: 7cbfebec4a9e616efa89cf9fde4a62c9, type: 3}
+  m_MinSpeed: 50
+  m_MaxSpeed: 50
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
+  m_TileAnimationFlags: 0

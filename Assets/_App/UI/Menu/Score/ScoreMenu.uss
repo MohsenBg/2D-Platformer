@@ -1,0 +1,80 @@
+.Container {
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Table {
+    width: 80%;
+    height: 70%;
+    align-self: center;
+    min-width: 600px;
+    max-width: 900px;
+    min-height: 500px;
+}
+
+.RowHeader {
+    flex-direction: row;
+    background-color: rgb(109, 122, 224);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ColumnHeader {
+    flex-grow: 1;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    font-size: 16px;
+    -unity-font: initial;
+    -unity-text-align: upper-right;
+    -unity-text-outline-color: rgba(255, 239, 239, 0);
+}
+
+.RowBodyOdd {
+    flex-direction: row;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.RowBodyEven {
+    flex-direction: row;
+    background-color: rgb(242, 242, 242);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.ColumnBody {
+    flex-grow: 1;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.RowEnd {
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.LabelStyle {
+    font-size: 35px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=1ea0aaa3606ad50489436059b0723d21&type=3#VT323-Regular");
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+}

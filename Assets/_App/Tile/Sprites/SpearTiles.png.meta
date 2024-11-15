@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 1e61f7ca590b8709bb2fb218f0116cfb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpearTiles_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 9}
+        - {x: -1, y: 13}
+        - {x: -3, y: 16}
+        - {x: -11, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -7}
+        - {x: -13, y: -16}
+        - {x: -2, y: -16}
+      - - {x: 15, y: -8}
+        - {x: 15, y: 16}
+        - {x: 2, y: 16}
+        - {x: 2, y: -11}
+        - {x: 3, y: -16}
+        - {x: 13, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10fdceb2756ff6279bcac18117b35aae
+      internalID: 758649438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 0}
+        - {x: -1, y: 15}
+        - {x: -4, y: 16}
+        - {x: -14, y: 16}
+        - {x: -14, y: -7}
+        - {x: -13, y: -16}
+        - {x: -4, y: -16}
+      - - {x: 15, y: 12}
+        - {x: 12, y: 16}
+        - {x: 4, y: 16}
+        - {x: 2, y: 15}
+        - {x: 2, y: -8}
+        - {x: 3, y: -16}
+        - {x: 12, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5ecf7a5126c2aad886aa75affa7149
+      internalID: -1301642735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 10}
+        - {x: -7, y: 16}
+        - {x: -8, y: 16}
+        - {x: -14, y: 13}
+        - {x: -14, y: -6}
+        - {x: -12, y: -16}
+        - {x: -4, y: -16}
+      - - {x: 14, y: -15}
+        - {x: 15, y: -8}
+        - {x: 9, y: -2}
+        - {x: 8, y: -2}
+        - {x: 2, y: -7}
+        - {x: 2, y: -16}
+        - {x: 14, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f31484d9bff17d1a9019991c6408d03
+      internalID: -552026911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_3
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 12}
+        - {x: -4, y: 16}
+        - {x: -12, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -8}
+        - {x: -13, y: -16}
+        - {x: -4, y: -16}
+      - - {x: 15, y: 12}
+        - {x: 12, y: 16}
+        - {x: 4, y: 16}
+        - {x: 2, y: 15}
+        - {x: 2, y: -8}
+        - {x: 3, y: -16}
+        - {x: 12, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ab734ca29192655bcc7e781034ce77
+      internalID: -1753093600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_4
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 12}
+        - {x: -4, y: 16}
+        - {x: -12, y: 16}
+        - {x: -14, y: 15}
+        - {x: -14, y: -8}
+        - {x: -13, y: -16}
+        - {x: -4, y: -16}
+      - - {x: 15, y: 12}
+        - {x: 12, y: 16}
+        - {x: 4, y: 16}
+        - {x: 2, y: 15}
+        - {x: 2, y: -8}
+        - {x: 3, y: -16}
+        - {x: 12, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 471037e09d9ad80199f44b9a525e55cb
+      internalID: 27142437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 15, y: -2}
+        - {x: 11, y: 2}
+        - {x: 7, y: 2}
+        - {x: 2, y: -1}
+        - {x: 2, y: -16}
+        - {x: 15, y: -16}
+      - - {x: -1, y: -3}
+        - {x: -5, y: 1}
+        - {x: -8, y: 1}
+        - {x: -14, y: -2}
+        - {x: -14, y: -16}
+        - {x: -1, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b2bba259c85075bafc0cc5bd57faf4
+      internalID: -1049055029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: 0}
+        - {x: -2, y: 16}
+        - {x: -13, y: 16}
+        - {x: -14, y: 0}
+        - {x: -14, y: -16}
+        - {x: -1, y: -16}
+      - - {x: 15, y: -3}
+        - {x: 13, y: 16}
+        - {x: 5, y: 16}
+        - {x: 2, y: -14}
+        - {x: 2, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa76cbcb98536a7c187014d9f98b479a
+      internalID: 471929624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -3}
+        - {x: -3, y: 16}
+        - {x: -11, y: 16}
+        - {x: -14, y: -14}
+        - {x: -14, y: -16}
+        - {x: -1, y: -16}
+      - - {x: 15, y: -3}
+        - {x: 13, y: 16}
+        - {x: 5, y: 16}
+        - {x: 2, y: -14}
+        - {x: 2, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1033aa6f02a565004ae28b59c0cc4099
+      internalID: -158868603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -3}
+        - {x: -3, y: 16}
+        - {x: -11, y: 16}
+        - {x: -14, y: -14}
+        - {x: -14, y: -16}
+        - {x: -1, y: -16}
+      - - {x: 15, y: -3}
+        - {x: 13, y: 16}
+        - {x: 5, y: 16}
+        - {x: 2, y: -14}
+        - {x: 2, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616d19e3ebc04ac8088db38d7eb00e76
+      internalID: 1211228103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -3}
+        - {x: -3, y: 16}
+        - {x: -11, y: 16}
+        - {x: -14, y: -14}
+        - {x: -14, y: -16}
+        - {x: -1, y: -16}
+      - - {x: 15, y: -3}
+        - {x: 13, y: 16}
+        - {x: 5, y: 16}
+        - {x: 2, y: -14}
+        - {x: 2, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b604177d7c76c1b7cb943ed745acb3a1
+      internalID: 220479088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpearTiles_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -1, y: -3}
+        - {x: -3, y: 16}
+        - {x: -11, y: 16}
+        - {x: -14, y: -14}
+        - {x: -14, y: -16}
+        - {x: -1, y: -16}
+      - - {x: 15, y: -3}
+        - {x: 13, y: 16}
+        - {x: 5, y: 16}
+        - {x: 2, y: -14}
+        - {x: 2, y: -16}
+        - {x: 15, y: -16}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 063a4174a16deafdabec368b84adecc7
+      internalID: -2134615008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3c8b9cf1dde1c293ead34fbc45f71b97
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpearTiles_0: 758649438
+      SpearTiles_1: -1301642735
+      SpearTiles_10: -2134615008
+      SpearTiles_2: -552026911
+      SpearTiles_3: -1753093600
+      SpearTiles_4: 27142437
+      SpearTiles_5: -1049055029
+      SpearTiles_6: 471929624
+      SpearTiles_7: -158868603
+      SpearTiles_8: 1211228103
+      SpearTiles_9: 220479088
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

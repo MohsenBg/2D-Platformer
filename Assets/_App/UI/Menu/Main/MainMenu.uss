@@ -1,0 +1,80 @@
+.PlayButton {
+    background-image: url("project://database/Assets/Buttons/PNG/6button_green_middle.png?fileID=2800000&guid=a16c91ca6a9a60b4596b57635c8a3e71&type=3#6button_green_middle");
+    width: 400px;
+    height: 200px;
+    font-size: 80px;
+    -unity-text-align: middle-center;
+    -unity-font-style: normal;
+    -unity-font: url("project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=1ea0aaa3606ad50489436059b0723d21&type=3#VT323-Regular");
+    -unity-font-definition: initial;
+    background-color: rgba(0, 0, 0, 0);
+    -unity-background-scale-mode: scale-to-fit;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    padding-top: 0;
+    padding-bottom: 20px;
+}
+
+.PlayButton:active {
+    -unity-background-image-tint-color: rgba(197, 196, 196, 0.78);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.OpetionButton {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 400px;
+    height: 180px;
+    background-image: url("project://database/Assets/Buttons/PNG/5button_blue_middle.png?fileID=2800000&guid=dad1da2ca9b01964288f231323af48ec&type=3#5button_blue_middle");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    font-size: 70px;
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=1ea0aaa3606ad50489436059b0723d21&type=3#VT323-Regular");
+    padding-bottom: 30px;
+}
+
+.OpetionButton:active {
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgba(197, 196, 196, 0.78);
+}
+
+.ExitButton {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 300px;
+    height: 150px;
+    background-image: url("project://database/Assets/Buttons/PNG/7button_green_middle.png?fileID=2800000&guid=b8ede16274078e4479b1a6b2d1e5ea06&type=3#7button_green_middle");
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    font-size: 65px;
+    color: rgb(0, 0, 0);
+    -unity-font-definition: initial;
+    -unity-font: url("project://database/Assets/_App/UI/Fonts/VT323-Regular.ttf?fileID=12800000&guid=1ea0aaa3606ad50489436059b0723d21&type=3#VT323-Regular");
+    padding-bottom: 20px;
+}
+
+.ExitButton:active {
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    -unity-background-image-tint-color: rgba(197, 196, 196, 0.78);
+}

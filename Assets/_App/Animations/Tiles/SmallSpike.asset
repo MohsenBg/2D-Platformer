@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13b75c95f34a00d4e8c04f76b73312e6, type: 3}
+  m_Name: SmallSpike
+  m_EditorClassIdentifier: 
+  m_AnimatedSprites:
+  - {fileID: 814249937, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: 1773477063, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: 690851640, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -1710041971, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -951603493, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -2096439598, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -1860843277, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -1684950230, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -299570328, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  - {fileID: -1179948325, guid: 6918d41f7b4b6c8b69ad1dbdc085b798, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 15
+  m_AnimationStartTime: 0
+  m_AnimationStartFrame: 0
+  m_TileColliderType: 1
+  m_TileAnimationFlags: 0

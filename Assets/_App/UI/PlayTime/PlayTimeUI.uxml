@@ -1,0 +1,11 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <engine:VisualElement style="flex-grow: 1; flex-direction: row; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px;">
+        <engine:VisualElement name="CoinScore" style="flex-grow: 1; flex-direction: row;">
+            <engine:VisualElement name="CoinLogo" style="background-image: url(&quot;project://database/Assets/_App/Sprites/Coins/CoinLogo.png?fileID=2800000&amp;guid=cfa73fa47b434415094d2e3953b0b1b1&amp;type=3#CoinLogo&quot;); background-size: 100% 100%; height: 54px; width: 59px; padding-top: 0; margin-top: 3px;" />
+            <engine:Label text="0" name="CoinLabel" style="font-size: 50px; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); -unity-text-align: upper-left; -unity-font-style: bold; -unity-text-outline-width: 2.5px; left: 15px; -unity-text-outline-color: rgb(0, 0, 0);" />
+        </engine:VisualElement>
+        <engine:VisualElement name="Timer" style="flex-grow: 1; flex-direction: row-reverse;">
+            <engine:Label text="0:00" name="TimerLabel" style="font-size: 50px; color: rgb(255, 255, 255); -unity-font-definition: url(&quot;project://database/Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts/PerfectDOSVGA437.ttf?fileID=12800000&amp;guid=74a5091d8707f334b9a5c31ef71a64ba&amp;type=3#PerfectDOSVGA437&quot;); -unity-text-align: upper-left; -unity-font-style: bold; -unity-text-outline-width: 2.5px; left: 15px; -unity-text-outline-color: rgb(0, 0, 0);" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+</engine:UXML>
